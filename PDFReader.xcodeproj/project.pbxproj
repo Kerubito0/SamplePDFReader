@@ -14,6 +14,18 @@
 		E7E90A201EDE52CA00233F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E90A1E1EDE52CA00233F64 /* LaunchScreen.storyboard */; };
 		E7E90A2B1EDE52CA00233F64 /* PDFReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A2A1EDE52CA00233F64 /* PDFReaderTests.swift */; };
 		E7E90A361EDE52CA00233F64 /* PDFReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A351EDE52CA00233F64 /* PDFReaderUITests.swift */; };
+		E7E90A441EDE534700233F64 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A431EDE534700233F64 /* Define.swift */; };
+		E7E90A451EDE534700233F64 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A431EDE534700233F64 /* Define.swift */; };
+		E7E90A461EDE534700233F64 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A431EDE534700233F64 /* Define.swift */; };
+		E7E90A4D1EDE544800233F64 /* PDFShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A4B1EDE544800233F64 /* PDFShowViewController.swift */; };
+		E7E90A4E1EDE544800233F64 /* PDFShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A4B1EDE544800233F64 /* PDFShowViewController.swift */; };
+		E7E90A4F1EDE544800233F64 /* PDFShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A4B1EDE544800233F64 /* PDFShowViewController.swift */; };
+		E7E90A501EDE544800233F64 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A4C1EDE544800233F64 /* PDFView.swift */; };
+		E7E90A511EDE544800233F64 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A4C1EDE544800233F64 /* PDFView.swift */; };
+		E7E90A521EDE544800233F64 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E90A4C1EDE544800233F64 /* PDFView.swift */; };
+		E7E90A541EDE545500233F64 /* setsumei.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E7E90A531EDE545500233F64 /* setsumei.pdf */; };
+		E7E90A551EDE545500233F64 /* setsumei.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E7E90A531EDE545500233F64 /* setsumei.pdf */; };
+		E7E90A561EDE545500233F64 /* setsumei.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E7E90A531EDE545500233F64 /* setsumei.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,10 @@
 		E7E90A311EDE52CA00233F64 /* PDFReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E90A351EDE52CA00233F64 /* PDFReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderUITests.swift; sourceTree = "<group>"; };
 		E7E90A371EDE52CA00233F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E90A431EDE534700233F64 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		E7E90A4B1EDE544800233F64 /* PDFShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFShowViewController.swift; sourceTree = "<group>"; };
+		E7E90A4C1EDE544800233F64 /* PDFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		E7E90A531EDE545500233F64 /* setsumei.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = setsumei.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +115,11 @@
 			children = (
 				E7E90A151EDE52CA00233F64 /* AppDelegate.swift */,
 				E7E90A171EDE52CA00233F64 /* ViewController.swift */,
+				E7E90A4B1EDE544800233F64 /* PDFShowViewController.swift */,
+				E7E90A4C1EDE544800233F64 /* PDFView.swift */,
+				E7E90A431EDE534700233F64 /* Define.swift */,
 				E7E90A191EDE52CA00233F64 /* Main.storyboard */,
+				E7E90A531EDE545500233F64 /* setsumei.pdf */,
 				E7E90A1C1EDE52CA00233F64 /* Assets.xcassets */,
 				E7E90A1E1EDE52CA00233F64 /* LaunchScreen.storyboard */,
 				E7E90A211EDE52CA00233F64 /* Info.plist */,
@@ -193,7 +213,6 @@
 				TargetAttributes = {
 					E7E90A111EDE52CA00233F64 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = TWR6BAE2UK;
 						ProvisioningStyle = Automatic;
 					};
 					E7E90A251EDE52CA00233F64 = {
@@ -238,6 +257,7 @@
 				E7E90A201EDE52CA00233F64 /* LaunchScreen.storyboard in Resources */,
 				E7E90A1D1EDE52CA00233F64 /* Assets.xcassets in Resources */,
 				E7E90A1B1EDE52CA00233F64 /* Main.storyboard in Resources */,
+				E7E90A541EDE545500233F64 /* setsumei.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E90A551EDE545500233F64 /* setsumei.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E90A561EDE545500233F64 /* setsumei.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E90A181EDE52CA00233F64 /* ViewController.swift in Sources */,
+				E7E90A4D1EDE544800233F64 /* PDFShowViewController.swift in Sources */,
+				E7E90A501EDE544800233F64 /* PDFView.swift in Sources */,
+				E7E90A441EDE534700233F64 /* Define.swift in Sources */,
 				E7E90A161EDE52CA00233F64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E90A4E1EDE544800233F64 /* PDFShowViewController.swift in Sources */,
+				E7E90A451EDE534700233F64 /* Define.swift in Sources */,
+				E7E90A511EDE544800233F64 /* PDFView.swift in Sources */,
 				E7E90A2B1EDE52CA00233F64 /* PDFReaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E90A4F1EDE544800233F64 /* PDFShowViewController.swift in Sources */,
+				E7E90A461EDE534700233F64 /* Define.swift in Sources */,
+				E7E90A521EDE544800233F64 /* PDFView.swift in Sources */,
 				E7E90A361EDE52CA00233F64 /* PDFReaderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,8 +446,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TWR6BAE2UK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tms.PDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,8 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TWR6BAE2UK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tms.PDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +547,7 @@
 				E7E90A3C1EDE52CA00233F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E90A3D1EDE52CA00233F64 /* Build configuration list for PBXNativeTarget "PDFReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +556,7 @@
 				E7E90A3F1EDE52CA00233F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E90A401EDE52CA00233F64 /* Build configuration list for PBXNativeTarget "PDFReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +565,7 @@
 				E7E90A421EDE52CA00233F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

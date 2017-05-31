@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PDFReader
 //
-//  Created by 谷川ばい on 2017/05/31.
+//  Created by TMS on 2017/05/31.
 //  Copyright © 2017年 TMS. All rights reserved.
 //
 
@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().tintColor = UIColor(red:ConstStruct.main_title_color_red , green:ConstStruct.main_title_color_green, blue:ConstStruct.main_title_color_blue,alpha:1.0)
+        //ナビゲーションバーの背景を変更
+        UINavigationBar.appearance().barTintColor = UIColor(red:ConstStruct.main_color_red , green:ConstStruct.main_color_green, blue:ConstStruct.main_color_blue,alpha:1.0)
+        //ナビゲーションのタイトル文字列の色を変更
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor(red:ConstStruct.main_title_color_red , green:ConstStruct.main_title_color_green, blue:ConstStruct.main_title_color_blue,alpha:1.0)]
+        
         return true
     }
 

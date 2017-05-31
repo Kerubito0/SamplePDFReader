@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  PDFReader
 //
-//  Created by 谷川ばい on 2017/05/31.
+//  Created by TMS on 2017/05/31.
 //  Copyright © 2017年 TMS. All rights reserved.
 //
 
