@@ -16,7 +16,7 @@ struct ConstStruct {
     static let main_title_color_green: CGFloat = 1.00
     static let main_title_color_blue: CGFloat = 1.00
     
-    static let pdf_file_name: String = "setsumei.pdf"
+    static let pdf_file_name: String = "sample.pdf"
     
  }
 
